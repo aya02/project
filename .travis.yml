@@ -11,7 +11,7 @@ install:
 
 # command to run tests
 script:
-  - ./execute.py
+  - python execute.py
 #  - coverage run --source=hoge_test setup.py test
 
 after_success:
