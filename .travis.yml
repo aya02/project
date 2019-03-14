@@ -5,11 +5,14 @@ python:
   - 3.3
   - 3.4
 
+# command to install dependencies
 install:
   - pip install coveralls
 
+# command to run tests
 script:
-  - coverage run --source=hoge_test setup.py test
+  - execute.py
+#  - coverage run --source=hoge_test setup.py test
 
 after_success:
   - coveralls
