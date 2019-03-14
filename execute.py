@@ -1,5 +1,4 @@
 import sys
-
 from QRdecompose.main import call
 
 # size of matrix
