@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="QRdecomposition_pkg",
+    name="QRdecompose",
     version="0.0.1",
     author="Aya Aihara",
     author_email="aya.aihara@angstrom.uu.se",
