@@ -13,7 +13,7 @@ To execute
 ```
 python execute.py
 ```
-You can change the size of matrices in execute.py file.
+You can change the size of matrices in execute.py file (now it is n=5).
 
 
 Reference for the algorithm :
