@@ -13,6 +13,7 @@ To execute
 ```
 python execute.py
 ```
+You can change the size of matrices in execute.py file.
 
 
 Reference for the algorithm :
