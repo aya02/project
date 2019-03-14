@@ -1,16 +1,15 @@
 import numpy as np
 from numpy import linalg
 
-def call():
+def call(n):
 
-  N0 = 6
-  A0 = np.random.rand(N0,N0)
+  A0 = np.random.rand(n,n)
 
-  N0 = A0.shape[0]
+  n = A0.shape[0]
   A_i = A0[:]
-  Q_final = np.identity(N0)
+  Q_final = np.identity(n)
 
-  for i in range(N0-1):
+  for i in range(n-1):
   
     N = A_i.shape[0]
     x = A_i[:,0]
